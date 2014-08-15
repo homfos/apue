@@ -2,6 +2,12 @@
 #include "company_b.cpp"
 #include "template_derivate.cpp"
 #include "template_base.cpp"
+#include <string>
+
+void reverseString(std::string *str)
+{
+    
+}
 
 int main(int argc, char **argv)
 {
@@ -9,7 +15,5 @@ int main(int argc, char **argv)
     c.sendClearWithLog("Test");
     BaseTemplate<CompanyB> c2;
     c2.sendClear("Test");
-    const int i = 0, j = 2;
-    j = 3;
     return 0;
 }
